@@ -11,42 +11,42 @@ A primeira parte consiste na implementação de predicados em Prolog para manipu
 **Descrição:** Insere um elemento no final de uma lista.
 
 **Exemplo de uso:**
-```prolog
+~~~~prolog
 ?- in_finalLista([1, 2, 3], 4, Resultado).
-Resultado = [1, 2, 3, 4].
-
+Resultado = [1, 2, 3, 4]. 
+~~~~
 ### b) inserirElemento/4
 **Descrição:** Insere um elemento em uma determinada posição de uma lista.
 
 **Exemplo de uso:**
-```prolog
+~~~~prolog
 ?- inserirElemento(4, 2, [1, 2, 3], Resultado).
 Resultado = [1, 4, 2, 3].
-
+~~~~
 ### c) remover/4
 **Descrição:** Remove um elemento de uma determinada posição de uma lista.
 
 **Exemplo de uso:**
-```prolog
+~~~~prolog
 ?- remover(2, [1, 2, 3, 4], 2, Resultado).
 Resultado = [1, 3, 4].
-
+~~~~
 ### d) potencia/3
 **Descrição:** Calcula a potência de um número.
 
 **Exemplo de uso:**
-```prolog
+~~~~prolog
 ?- potencia(2, 3, Resultado).
 Resultado = 8.
-
+~~~~
 ### e) palindromo/1
 **Descrição:** Verifica se uma lista é um palíndromo.
 
 **Exemplo de uso:**
-```prolog
+~~~~prolog
 ?- palindromo([1, 2, 3, 2, 1]).
 true.
-
+~~~~
 ## 2ª parte
 A segunda parte consiste na implementação de predicados em Prolog para modelar relacionamentos entre pessoas com base em suas preferências de filmes e idades. Os predicados implementados são os seguintes:
 
